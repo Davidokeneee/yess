@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audition for "save souls by acting"</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+         background-color: blueviolet;
+         color: white;
+         text-align: center;
+         padding: 1em;
+        }
+
+        section{
+            max-width: 500px;
+            margin: 1em auto;
+            padding: 2em ;
+            background-color:white;
+            border-radius: 5px;
+            box-shadow : 0 0 10px rgba(0, 0, 0,0.1);
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        input,textarea,button{
+            margin: 1em;
+            padding: 0.5em;
+            border: 1px solid #cc3c;
+            border-radius: 3px;
+        
+        }
+        button{
+            background-color:blueviolet;
+            color: aliceblue;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>DO YOU WANT TO SAVE SOULS BY ACTING?</h1>
+    </header id=head>
+<section>
+    <h2>audition details</h2>
+<p>we are excited to announce  auditions for the drama group SSBA. pls fill the form below to apply</p>
+
+<form id="audition form">
+<label for="name">name:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="resume">Resume/CV:</label>
+<textarea ID="resume" name="resume" rows="4" required></textarea>
+
+<button type="button" id="record" onclick="submitForm()"> submit</button>
+</form>
+
+
+
+
+
+    </section>
+    <script > 
+
+function submitForm() {
+            // Get form values
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var resume = document.getElementById('resume').value;
+
+            // Validate form fields
+            if (name.trim() === '' || email.trim() === '' || resume.trim() === '') {
+                alert('Please fill out all fields.');
+                return; // Exit function if validation fails
+            }
+
+            // If validation passes, you can continue with form submission or other actions
+            console.log('Form submitted successfully!');
+        }
+
+        var elButton = document.querySelector("button");
+        elButton.style.borderRadius = "25px";
+
+        var elHeader = document.querySelector("header");
+        elHeader.style.background = "blueviolet";
+   </script>
+   
+</body>
+</html>     
