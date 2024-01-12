@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT Test Website</title>
+    <style>
+       body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+
+footer {
+    background-color: #3498db;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+
+#question-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto; /* Centered with margin */
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Add margin-bottom to create space between header and question-container */
+header {
+    margin-bottom: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+       <h2> How well do you know your country?</h2>
+    </header>
+    <div id="question-container">
+        <!-- Question content will be loaded here dynamically -->
+    </div>
+    <button onclick="nextQuestion()">Next Question</button>
+
+    <script src="CBT.js">
+        
+       
+
+    
+    </script>
+</body>
+</html>
