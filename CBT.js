@@ -1,6 +1,6 @@
 let questions = [
   {question:'what is the capital of nigeria', options:['london','lagos','abuja'], correctanswer:'abuja'},
-  {question:'who is the governor of lagos', options:['Babajide sanwo-olu','Sunny abacha','Akinwunmi ambode'], correctanswer:'babajide sanwo-olu'},
+  {question:'who is the governor of lagos', options:['Babajide sanwo-olu','Sunny abacha','Akinwunmi ambode'], correctanswer:'Babajide sanwo-olu'},
   {question:'who was the first president of Nigeria', options:['Nnamdi azikwe','bola ahmed tinubu','samuel eto'], correctanswer:'Nnamdi azikwe'}
 ];
 
