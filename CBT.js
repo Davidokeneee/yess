@@ -1,7 +1,7 @@
 let questions = [
-  {question:'What is the capital of nigeria', options:['London','Lagos','Abuja'], correctanswer:'Abuja'},
-  {question:'Who is the governor of lagos', options:['Babajide Sanwo-olu','Sunny Abacha','Akinwunmi Ambode'], correctanswer:'Babajide Sanwo-olu'},
-  {question:'Who was the first president of Nigeria', options:['Nnamdi Azikwe','Bola Ahmed Tinubu','Samuel Eto'], correctanswer:'Nnamdi Azikwe'}
+  {question:'What is the capital of nigeria?', options:['London','Lagos','Abuja'], correctanswer:'Abuja'},
+  {question:'Who is the governor of lagos?', options:['Babajide Sanwo-olu','Sunny Abacha','Akinwunmi Ambode'], correctanswer:'Babajide Sanwo-olu'},
+  {question:'Who was the first president of Nigeria?', options:['Nnamdi Azikwe','Bola Ahmed Tinubu','Samuel Eto'], correctanswer:'Nnamdi Azikwe'}
 ];
 
 let currentQuestionIndex = 0;
